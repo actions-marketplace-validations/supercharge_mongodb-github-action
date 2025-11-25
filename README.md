@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         mongodb-version: ['6.0', '7.0', '8.0']
 
     steps:
@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         mongodb-version: ['6.0', '7.0', '8.0']
 
     steps:
@@ -129,7 +129,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         mongodb-version: ['6.0', '7.0', '8.0']
 
     steps:
@@ -173,7 +173,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         mongodb-version: ['6.0', '7.0', '8.0']
 
     steps:
@@ -217,7 +217,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         mongodb-version: ['6.0', '7.0', '8.0']
 
     steps:
